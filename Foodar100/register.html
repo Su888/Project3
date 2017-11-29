@@ -1,0 +1,147 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <style>
+        head, body{
+            width: 100%;
+        }
+        header>head{
+            font-family: cursive;
+            font-size: 1em;
+            color:#4E4411;
+        }
+        main{
+            padding:0 100pt;
+            width: 80%;
+            font-family: Cambria;
+        }
+        main>form{
+            padding: 0;
+        }
+        main>p>strong{
+            font-size: 20px;
+        }
+        .form-group{
+            padding: 20px;
+            background-color: #F3F3A7;
+        }
+        .form-group>input{
+            width: 40%;
+            height: 5%;
+            padding: 10px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type=submit]{
+            width: 100px;
+            height: 50px;  
+            background-color: #8383E4;
+        }
+        header>div{
+            float: left;
+            height: 80px;
+            width: 20%; 
+        }
+        header>nav>div{
+            float: right;
+            height: 80px;
+            width: 20%;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+        footer{
+            background-color: #2C0C0C;
+            font-size: 18px;
+            color:whitesmoke;
+            width: 98%;
+            height:fit-content;
+            padding: 10pt;
+        }
+        #SiteMap{
+            float: left;
+        }
+        #SiteMap>label>a{
+                width: 33%;
+                text-decoration: none;
+                color: white;
+        }
+        #SiteMap a:hover{
+            color: blue;
+        }
+        #Legal{
+            float: right;
+        }
+        #clear{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+        <header>
+                <div>
+                        <a href="Home.html"><img src="images/logo.jpg" alt="Foodar logo" align="Left"/></a><br/>
+                </div>
+                <nav>   
+                        <div> 
+                             <a href="Home.html">Home/</a>
+                             <a href="About.html">About Us/ </a>
+                             <a href="#">Request</a>
+                        </div>
+                        <br/><br/><br/>
+                 </nav>    
+                 <head>
+                        <h1 align="center">
+                                <em>Register</em>
+                         </h1>
+                 </head> 
+            </header>
+    <hr>
+    <main>
+         <p>
+            <strong> Please fill out the form below:</strong> 
+        </p>
+        <form method="post" action="">
+        <div class="form-group" align="center">
+            <h3 align="left">Personal Details</h3>
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="password" name="password" placeholder="Password" required /> <br/><br/>
+            <input type="First Name" name="FirstName" placeholder="First Name" required/>
+            <input type="Last Name" name="LastName" placeholder="Last Name" required/>
+        </div>
+        <div class="form-group" align="center">
+            <h3 align="left">Contact Details</h3>
+            <input type="text" name:"address" placeholder="Address" required/>
+            <input type="text" name:"street" placeholder="Street" required/> <br/><br/>
+            <input type="text" name: "city" placeholder="City" required/>
+            <input type="text" name:"zipcode" placeholder="Zipcode" required/> <br/><br/>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Register"/>         
+        </div>
+        </form>  
+    </main>
+    <hr/>
+    <footer>
+            <div id="SiteMap">
+                <label >SITE MAP</label><br/>
+                <label for="Home"><a href="Home.html">Home</a></label><br/>
+                <label for="AboutUs"><a href="About.html">About Us</a></label><br/>
+                <label for="Register"><a href="register.html">Register</a></label><br/>
+            </div>
+            <div id="Legal">
+                <label>LEGAL</label><br/>
+                <label>Privacy Policy</label><br/>
+                <label>Terms and Conditions</label><br/><br/>
+            </div>
+            <div id="clear"></div>
+            <div id="copyright" align="center">
+                    <p>&copy copyright 2017 </p>
+            </div>
+    </footer>    
+</body>
+</html>

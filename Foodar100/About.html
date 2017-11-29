@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Foodar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    main{
+        background-color:#DCBCDD;
+        padding-top: 0px;
+    }
+    header>head{
+        font-size: 20px;
+        font-family: cursive, Cambria;
+        color:#4E4411;
+        padding-top: 10px;
+    }
+    p{
+        font-size: 1.3em;
+        font-family: Cambria;
+    }
+    main > div> p> strong{
+        background-color: #4E4411;
+        color: #DCBCDD;
+        padding: 10px;
+    }
+    hr{
+        color: gray;
+    }
+    header>div{
+        float: left;
+        height: 80px;
+        width: 20%; 
+    }
+    header>nav>div{
+        float: right;
+        height: 80px;
+        width: 20%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    footer{
+            background-color: #2C0C0C;
+            font-size: 18px;
+            color:whitesmoke;
+            width: 98%;
+            height:fit-content;
+            padding: 10pt;
+        }
+    #SiteMap{
+        float: left;
+    }
+    #SiteMap>label>a{
+            width: 33%;
+            text-decoration: none;
+            color: white;
+    }
+    #SiteMap a:hover{
+        color: blue;
+    } 
+    #Legal{
+            float: right;
+    }
+    #clear{
+            clear: both;
+    }
+</style>
+<body>
+    <header>
+        <div>
+                <a href="Home.html"><img src="images/logo.jpg" alt="Foodar logo" align="Left"/></a><br/>
+        </div>
+        <nav>   
+                <div> 
+                     <a href="Home.html">Home/</a>
+                     <a href="register.html">Sign in/Register/</a>
+                     <a href="#"> Request</a>
+                </div>
+                <br/><br/><br/>
+         </nav>    
+         <head>
+                <h1 align="center">
+                        <em>"How it Works!"</em>
+                 </h1>
+         </head> 
+    </header>
+    <main>
+        <hr>
+        <div>
+        <p align="center">
+            <strong> REGISTER FOR AN ACCOUNT </strong><br/><br/>
+            First thing you need to do is <a href="register.html">register</a> for an account.<br/>
+            After Registering you will be able to submit requests for pickup and have food delivered to your door.<br/><br/>
+        </p>
+        </div>
+        <div>
+        <P align="center">
+            <strong> ORDER YOUR FOOD </strong><br/><br/>
+            Place an order for food from a local restaurant and the system will automatically find the nearest driver at the best cost.<br/><br/>
+        </P>
+        </div>
+        <div>
+        <p align="center">
+            <strong> CONFIRM YOUR REQUEST </strong><br/><br/>
+            Before any request is submitted, you have the chance to review it and make any changes or cancellations..<br/><br/>
+        </p>
+        </div>
+        <hr>
+    </main>
+    <footer>
+            <div id="SiteMap">
+                <label >SITE MAP</label><br/>
+                <label for="Home"><a href="Home.html">Home</a></label><br/>
+                <label for="AboutUs"><a href="About.html">About Us</a></label><br/>
+                <label for="Register"><a href="register.html">Register</a></label><br/>
+            </div>
+            <div id="Legal">
+                <label>LEGAL</label><br/>
+                <label>Privacy Policy</label><br/>
+                <label>Terms and Conditions</label><br/><br/>
+            </div>
+            <div id="clear"></div>
+            <div id="copyright" align="center">
+                    <p>&copy copyright 2017 </p>
+            </div>
+    </footer>    
+</body>
+</html>
